@@ -8,12 +8,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 @EnableAutoConfiguration
+// @SpringBootApplication
 public class SampleController {
 
 	@RequestMapping("/")
 	@ResponseBody
 	String home() {
-		return "Hello World!";
+		return "Hello World! Girls!!!";
 	}
 
 	public static void main(final String[] args) throws Exception {
